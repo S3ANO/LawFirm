@@ -22,6 +22,7 @@ public class EmployeeMain
         System.out.print(luke.getVacationDays() + ", ");
         System.out.println(luke.getVacationForm());
         luke.takeDictation("Hello there!");
+        luke.extraPages();
         
         System.out.print("Lawyer: ");
         Lawyer leia = new Lawyer();
@@ -30,6 +31,7 @@ public class EmployeeMain
         System.out.print(leia.getVacationDays() + ", ");
         System.out.println(leia.getVacationForm());
         leia.sue();
+        leia.extraPages();
         
         System.out.print("Marketer: ");
         Marketer finn = new Marketer();
@@ -38,6 +40,7 @@ public class EmployeeMain
         System.out.print(finn.getVacationDays() + ", ");
         System.out.println(finn.getVacationForm());
         finn.advertise();
+        finn.extraPages();
         
         System.out.print("Legal Secretary: ");
         LegalSecretary lucy = new LegalSecretary();
@@ -47,5 +50,6 @@ public class EmployeeMain
         System.out.println(lucy.getVacationForm());
         lucy.takeDictation("That's neat.");
         lucy.fileLegalBriefs();
+        lucy.extraPages();
     }
 }

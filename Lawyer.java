@@ -20,4 +20,8 @@ public class Lawyer extends Employee
     {
         System.out.println("I'll see you in court!");
     }
+    public void extraPages()
+    {
+        System.out.println("Extra Pages: 2");
+    }
 }

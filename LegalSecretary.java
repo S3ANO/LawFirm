@@ -16,4 +16,8 @@ public class LegalSecretary extends Secretary
     {
         System.out.println("I could file all day!");
     }
+    public void extraPages()
+    {
+        System.out.println("Extra Pages: 1");
+    }
 }

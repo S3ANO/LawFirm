@@ -11,4 +11,8 @@ public class Secretary extends Employee
     {
         System.out.println("Dictating text: " + text);
     }
+    public void extraPages()
+    {
+        System.out.println("Extra Pages: 1");
+    }
 }

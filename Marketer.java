@@ -16,4 +16,8 @@ public class Marketer extends Employee
     {
         System.out.println("Purchase our products!");
     }
+    public void extraPages()
+    {
+        System.out.println("Extra Pages: 3");
+    }
 }
